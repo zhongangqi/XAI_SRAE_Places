@@ -1,5 +1,5 @@
 # XAI_SRAE_Places
-Embedding Deep Networks into Visual Explanations ([PDF])(https://arxiv.org/abs/1709.05360)<br>
+Embedding Deep Networks into Visual Explanations ([PDF](https://arxiv.org/abs/1709.05360))<br>
 Zhongang Qi, Saeed Khorram, Fuxin Li, in arXiv preprint arXiv:1709.05360. 
 
 For project details, please see:<br>
