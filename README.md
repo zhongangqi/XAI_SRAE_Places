@@ -9,8 +9,8 @@ http://web.engr.oregonstate.edu/~qiz/
 ## Data and Model
 Please download the data and the model from the following links:<br>
 1. The original CNN model: [pytorch_vgg16_places365.pth](http://web.engr.oregonstate.edu/~qiz/DATA/XAI_Places/pytorch_vgg16_places365.pth)<br>
-2. The input positive training data for category bedroom: [ALLfeaturesbedroom.mat](http://web.engr.oregonstate.edu/~qiz/DATA/XAI_Places/ALLfeatures_bedroom.mat)<br>
-3. The input negative training data: [ALLfeaturesnegAll.mat](http://web.engr.oregonstate.edu/~qiz/DATA/XAI_Places/ALLfeatures_negAll.mat)
+2. The input positive training data for category bedroom: [ALLfeaturesbedroom.mat](http://web.engr.oregonstate.edu/~qiz/DATA/XAI_Places/ALLfeatures_bedroom_mat.tar.gz)<br>
+3. The input negative training data: [ALLfeaturesnegAll.mat](http://web.engr.oregonstate.edu/~qiz/DATA/XAI_Places/ALLfeatures_negAll_mat.tar.gz)
 
 ## Quick Start
 1. The original CNN model (pytorch_vgg16_places365.pth) should be put to the path: **‘./Model/’**, which is converted from a pretrained caffe model (VGG16-places365) in the following link:<br>
@@ -33,4 +33,5 @@ You can:<br>
 All code is written in Python 3.6. You will need PyTorch 0.3+ to run the excitation bp code. <br> 
 The excitation bp code is from the following link: <br>
 https://github.com/greydanus/excitationbp. <br>
+Thanks [Sam Greydanus](https://github.com/greydanus) for providing the excitation bp code in PyTorch. <br>
 We revised a little to the original code, thus please use the excitation bp code we provided here.
